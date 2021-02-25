@@ -1,0 +1,87 @@
+body {
+	background: #C4C4C4;
+	font-family: Roboto;
+}
+
+.wrapper {
+	width: 500px;
+	margin: 62px 77px 72px;
+	box-sizing: border-box;
+}
+
+#search {
+	height: 61px;
+	width: 500px;
+	font-size: 48px;
+	line-height: 56px;
+	border: none;
+	box-sizing: border-box;
+	padding: 0px 13px;
+}
+
+.searching_results {
+	margin-bottom: 45px;
+}
+
+.searchingCommit {
+	height: 44px;
+	background: #E3E3E3;
+	border: 2px solid #000000;
+	font-size: 30px;
+	line-height: 35px;
+	box-sizing: border-box;
+	padding: 0px 13px;
+}
+
+.searchingCommit:hover {
+	background: #65CDF9;
+}
+
+.choosed_commit {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 500px;
+	height: 101px;
+	background: #E27BEB;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	font-size: 24px;
+	line-height: 28px;
+	padding: 8px 34px 8px 16px;
+}
+
+.btn_close {
+	position: relative;
+	width: 42px;
+	height: 38px;
+	opacity: 0.6;
+}
+
+.btn_close:hover {
+	opacity: 1;
+}
+
+.btn_close:before,
+.btn_close:after {
+	position: absolute;
+	left: 18px;
+	top: -7px;
+	content: '';
+	width: 4px;
+	height: 51px;
+	background-color: #FF0000;
+}
+
+.btn_close:before {
+	transform: rotate(45deg);
+}
+
+.btn_close:after {
+	transform: rotate(-45deg);
+}
+
+
+
+
+
